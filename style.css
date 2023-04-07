@@ -1,0 +1,378 @@
+
+@import
+    url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    padding: 10px 10px;
+    color:white;
+    background-color: black;
+    font-family: 'Fira Sans';
+    overflow-x: hidden;
+    
+   
+}
+header{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    position:sticky;
+    top: 0;
+    background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    gap: 40px;
+}
+nav a{
+    transition: all 0.4s;
+    cursor: pointer;
+}
+nav a:hover{
+color: blueviolet;
+text-shadow: 2px 2px 30px blueviolet;
+transition: all 0.2s;
+}
+
+header button{
+    cursor: pointer;
+    background: linear-gradient(70deg, rgb(101, 32, 165) ,rgb(155, 41, 163), rgb(255, 0, 204) );
+    padding: 10px 32px;
+    border-radius: 66px;
+    color: white;
+    transition-duration: 0.5s;
+    }
+
+.Smallhaeder{
+    display: none;
+}
+header button:hover{
+       background: rgb(255, 0, 204)  ;
+       transition: all 0.7;
+}
+
+.Hero{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+
+.Hero .left h1{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 100px;
+}
+.dream2{
+    color: rgb(101, 32, 165);
+}
+.dream1{
+    color: rgb(255, 0, 204);
+}
+.Hero .left .info{
+    display: flex;
+    gap: 20px;
+    
+   
+}
+.Hero .left .button{
+    cursor: pointer;
+    align-content: center;
+    background: linear-gradient(110deg, rgb(39, 32, 165), rgb(195, 34, 228) );  
+    border-radius: 50%;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+}
+.Hero .left .button:hover{
+    background: rgb(39, 32, 165)
+    
+}
+.Hero .left p{
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+.Hero .right img{
+    width: 500px;
+
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+.dropsec{
+    padding-left: 50px;
+}
+.dropsec h1{
+    font-size: 45px;
+   
+}
+.dropsec ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.dropsec li{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 25px;
+    cursor:pointer;
+    flex-wrap: wrap;
+    
+}
+.dropsec li:hover{
+    background:linear-gradient(70deg, rgb(101, 32, 165) ,rgb(155, 41, 163), rgb(255, 0, 204) ) ;
+}
+
+.card{
+    width: 200px;
+    height: 320px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+   
+    border-radius: 10px;
+
+}
+.card-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-info{
+display: flex;
+justify-content: space-between;
+;
+}
+
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    
+}
+.price2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 10px;
+    color: rgb(65, 7, 118);
+}
+.card-info .card-img2{
+    width: 20px;
+    
+}
+
+
+.card-footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-top: 1px solid grey;
+padding-top: 10px;
+
+}
+.card-footer p{
+background-color: rgb(196, 196, 196);
+color: rgb(128, 0, 255);
+padding: 5px 10px;
+border-radius: 10px;
+}
+.card-footer button{
+    border-radius: 20px;
+    padding: 4px;
+    cursor: pointer;
+    background-color: rgb(190, 188, 188);
+
+}
+.card-footer button:hover{
+    background-color: rgb(184, 15, 203);
+    color: white;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 50px;
+    max-width: 1000px;
+    
+}
+.banner{
+    background-color: rgb(184, 43, 206);
+    text-align: center;
+    margin: 60px -120px;
+    font-size: 50px;
+    transform: rotate(-7deg);
+    font-weight: 600;
+    letter-spacing: 7px;
+    cursor: pointer;
+   overflow: hidden;
+   
+   z-index: -1;
+   
+    
+
+}
+.SelfCards h1{
+    margin-bottom: 20px;
+}
+.SelfCards{
+    
+    
+    padding: 50px;
+    align-items: center;
+    
+    margin-right: 40px; 
+
+}
+
+.selfcard{
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+           
+    }
+.selfcard1{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(105, 3, 148);
+    
+    }
+.selfcard1 img{
+    width: 30px;
+    margin-bottom: 10px;
+}
+.selfcard1 h3{
+    margin-bottom: 10px;
+}
+.site-footer{
+    background-color: rgb(44, 44, 44);
+    
+}
+.row{
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+   
+}
+
+
+.categories1 , .quicklinks1 {
+    list-style: none;
+   
+
+
+}
+.about{
+    max-width: 400px;
+    font-size: small;
+    margin-right: 30px;
+}
+
+.row a{
+    color: rgb(204, 204, 204);
+    list-style: none;
+}
+.row a:hover{
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:750px){
+.Hero .left {
+    max-width: 900px;
+}
+.Hero .left h1{
+    max-width: 500px;
+    font-size: 50px;
+}
+
+}
+@media (max-width:750px){
+.Hero .left {
+    max-width: 900px
+}
+.Hero .left h1{
+    max-width: 500px;
+    
+}
+
+.Smallhaeder{
+    display: block;
+}
+.bigheader{
+    display: none;
+}
+
+header{
+    font-size:xx-small;
+}
+header button{
+    max-width:100px;
+}
+.brands img{
+    padding: 10px;
+    width: 100px ;
+    
+}
+.selfcard{
+    height: 350px;
+   
+}
+}
+@media (max-width:675px){
+    .Hero {
+        flex-wrap: wrap;
+    }
+    .Hero .right{
+        order: -1;
+    }
+}
