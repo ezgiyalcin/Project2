@@ -1,5 +1,5 @@
 # melody-tv
- <h1> One of first projects of My Software Journey</h1>
+ <h1> One of First Projects of My Software Journey</h1>
 
  Basic Landing page
 
